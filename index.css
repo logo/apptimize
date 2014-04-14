@@ -1,0 +1,21 @@
+
+/**
+ * Apptimize logo.
+ */
+
+.logo[data-logo="Apptimize"] {
+  width: 3.927279863788979em;
+}
+
+.logo[data-logo="Apptimize"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Apptimize"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Apptimize"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
